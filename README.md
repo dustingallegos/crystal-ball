@@ -2,13 +2,21 @@
 This is an POC that was used to demonstrate how the SKY API can be called from inside an Outlook add-in to display information about a doner. 
 Because of how IE or Edge's security requirements prevent the add-in from being loaded, it only works while Outlook is opened from Chrome. 
 
+## Technologies
+### Back-end
+- Node.JS 
+- BlackBaud's SKY API
+
+### Front-end
+- JavaScript
+- HTML5 
+- Angular
+
 ## Pre-requisities
 1. Have Node.js installed 
 2. Get Keys and register app with Blackbaud  [Getting Started](https://apidocs.sky.blackbaud.com/docs/getting-started/) within our documentation.  
 
-
 ## Instructions
-
 ### Running the add-in
 1. Enter the information for the empty parameters in sky.env file
 2. Navigate to the working directory of this app with Git's command window and enter 'npm install' to install all dependencies
@@ -25,5 +33,3 @@ Because of how IE or Edge's security requirements prevent the add-in from being 
 1. Go to the add-ins local site and log in with your Blackbaud's developer account. 
 2. Go to Outlook online in your browser and select any mail. You should see this add-in's name "Crystal Ball" show up as one of the add-in options on the top of the reading pane - select it.
 3. The add-in will load, showing you more information on the person that emailed you, if the person is present in Blackbaud's database. 
-
-
