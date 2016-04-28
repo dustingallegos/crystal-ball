@@ -1,6 +1,8 @@
 ## Overview
-This is an POC that was used to demonstrate how the SKY API can be called from inside an Outlook add-in to display information about a doner. 
-Because of how IE or Edge's security requirements prevent the add-in from being loaded, it only works while Outlook is opened from Chrome. 
+In this sample we demonstrated how a third party API can be called from inside an Office 365 Outlook add-in to display information about the email sender. 
+
+### Note 
+IE or Edge's security requirements prevent the add-in from being loaded. So this sample only works with Chrome. 
 
 ## Technologies
 ### Back-end
@@ -14,7 +16,7 @@ Because of how IE or Edge's security requirements prevent the add-in from being 
 
 ## Pre-requisities
 1. Have Node.js installed 
-2. Get Keys and register app with Blackbaud  [Getting Started](https://apidocs.sky.blackbaud.com/docs/getting-started/) within our documentation.  
+2. Register as a developer in Blackbaud to obtain keys and create app see [Getting Started](https://apidocs.sky.blackbaud.com/docs/getting-started/) guide.  
 
 ## Instructions
 ### Running the add-in
