@@ -1,0 +1,40 @@
+#details {
+	margin-left: 15px;
+}
+
+#details th {
+    text-align: left;
+    padding-right: 10px;
+}
+
+#content-main {
+	background: #f3f3f4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.logout-div{
+    margin-top: 30px;
+}
+
+th{
+    text-align: left;
+    padding-left: 30px; 
+}
+
+.suggested-data{
+    color: #F47F1F; 
+}
+
+.ms-CommandBar-custom{
+    background-color: #73B642;
+    height: 50px;
+}
