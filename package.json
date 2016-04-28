@@ -24,12 +24,15 @@
     "node": "0.12.7"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "github",
+    "url": "https://github.com/dustingallegos/crystal-ball"
   },
   "keywords": [
     "blackbaud",
     "nxt",
-    "skyapi"
+    "skyapi", 
+    "office365",
+    "outlook", 
+    "add-in"
   ]
 }

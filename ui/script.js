@@ -1,4 +1,4 @@
-        
+       
 var dashboardApp = angular.module('crystalBallApp', []); 
 
 dashboardApp.controller('mainCtrl', function ($scope, $http) {
